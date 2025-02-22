@@ -1,5 +1,5 @@
-site_name: uvProject
-site_url: https://spaghetmenot.github.io/uvproject/
+site_name: uvFactory
+site_url: https://spaghetmenot.github.io/uvFactory/
 
 nav:
   - Home: index.md

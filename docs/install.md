@@ -1,5 +1,5 @@
-# Install uvProject
-uvProject is installed as an asset library in Blender.
+# Install uvFactory
+uvFactory is installed as an asset library in Blender.
 
 Tldr: download the zip, extract the folder, and add the folder as an asset library. For more detailed instructions see [below](#install-asset-library).
 
@@ -11,10 +11,10 @@ Tldr: download the zip, extract the folder, and add the folder as an asset libra
 2. Unzip/extract folder to your desired location
 3. Open Blender and go to Edit/Preferences/File Paths/Asset Libraries
 4. Click + Add Asset Library ![install_1](assets/install_1.webp)
-5. Navigate to the unzipped folder and press Add Asset Library. (Make sure you are in the "uvProject" Folder) ![install_2](assets/install_2.webp)
+5. Navigate to the unzipped folder and press Add Asset Library. (Make sure you are in the "uvFactory" Folder) ![install_2](assets/install_2.webp)
 6. Save Preferences and **restart Blender** for modifiers/tools to show up in menus
 
-After Restarting Blender you should have access to the uvProject tools:
+After Restarting Blender you should have access to the uvFactory tools:
 
 1. With a mesh selected in the 'Add Modifier' Menu
 2. In the Edit Mesh 'UV' Menu
