@@ -1,4 +1,5 @@
 # Install uvFactory
+
 uvFactory is installed as an asset library in Blender.
 
 Tldr: download the zip, extract the folder, and add the folder as an asset library. For more detailed instructions see [below](#install-asset-library).
@@ -21,8 +22,9 @@ After Restarting Blender you should have access to the uvFactory tools:
 3. In the Geometry Nodes Add Node menu under 'UV'
 
 ## Alternative Catalog
-By default, the assets are organized into generic categories to make using them feel more native within Blender. 
 
-I've included an alternate catalog that groups everything under a "SpaghetMeNot" catalog to keep all my nodes together. This may be preferable if you have lots of node asset libraries. 
+By default, the assets are organized into generic categories to make using them feel more native within Blender.
+
+I've included an alternate catalog that groups everything under a "SpaghetMeNot" catalog to keep all my nodes together. This may be preferable if you have lots of node asset libraries.
 
 To use this, simply replace blender_assets.cats.txt with the version found inside the Grouped SpaghetMeNot Catalog Folder:
