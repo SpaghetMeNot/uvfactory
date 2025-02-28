@@ -1,7 +1,7 @@
 !!! warning ":construction_site: :construction:"
 
 ## Overview
-There are several tools packged with uvProject. Some generate (project) UVs, some modify existing UVs and some operate on related attributes.
+There are several tools packged with uvFactory. Some generate (project) UVs, some modify existing UVs and some operate on related attributes.
 
 Most tools have both modifier and edit mesh tool variants.
 
