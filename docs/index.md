@@ -15,8 +15,8 @@ Welcome to the uvFactory documentation, here you'll find everything there is to 
 
 </div>
 
-If something isn't clear or is missing please reach out!
-:material-email: <spaghetmenot@gmail.com>
+If something isn't clear or is missing please reach out!  
+:material-email: <spaghetmenot@gmail.com>  
 :fontawesome-brands-bluesky: [@spaghetmenot.bsky.social](https://bsky.app/profile/spaghetmenot.bsky.social)  
 :fontawesome-brands-mastodon: [@SpaghetMeNot@mastodon.social](https://mastodon.social/@SpaghetMeNot)
 
