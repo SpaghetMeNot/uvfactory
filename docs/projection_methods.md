@@ -2,9 +2,9 @@
 
 There are 3 methods for generating UVs with uvFactory:
 
-- Box Project
-- Island Project
-- Island Unwrap
+- [Box Project](#box-project)
+- [Island Project](#island-project)
+- [Island Unwrap](#island-unwrap)
 
 Here you can see a comparison of all three methods and Blender's "Smart UV Project"
 ![](assets/methods_compare.gif)
