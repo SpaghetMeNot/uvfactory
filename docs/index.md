@@ -7,7 +7,7 @@
 
     Please reach out if you get stuck with anything in the meantime!
 
-Welcome to the uvFactory documentation, here you'll find everything there is to know about the tools.
+Welcome to the uvFactory documentation! Here you'll find everything there is to know about the tools.
 <div class="grid cards" markdown>
 
 - [:octicons-download-16: Install uvFactory](install.md)
@@ -15,7 +15,7 @@ Welcome to the uvFactory documentation, here you'll find everything there is to 
 
 </div>
 
-If something isn't clear or is missing please reach out!  
+If anything is unclear or missing, please reach out!  
 :material-email: <spaghetmenot@gmail.com>  
 :fontawesome-brands-bluesky: [@spaghetmenot.bsky.social](https://bsky.app/profile/spaghetmenot.bsky.social)  
 :fontawesome-brands-mastodon: [@SpaghetMeNot@mastodon.social](https://mastodon.social/@SpaghetMeNot)
@@ -31,9 +31,9 @@ In many cases it allows you to model freely while UVs appear before your eyes.
 ### Create UVs
 Sophisticated projection methods create high quality UVs:
 
-1. **Oriented**. UVs are aligned with object's up axis by default. Ideal for directional textures e.g. bricks, tiles, wood, leaks etc.
+1. **Oriented**. UVs are aligned with the object's up axis by default. Ideal for directional textures e.g. bricks, tiles, wood, leaks etc.
 2. **Stable**. Unlike other procedural UV solutions, the projections are stable by default and if left unpacked, don't jump around as you change your model.
-3. **Automatic and manual**. All projection types are available as modifiers and tools. UVs can be created in real-time as you model or you can use the tools directly in edit mode for fast manual UV unwrapping.
+3. **Automatic and manual**. All projection types are available as modifiers and tools. UVs can be created in real-time as you model, or you can use the tools directly in edit mode for fast manual UV unwrapping.
 
 ### Modify UVs
 Edit UVs directly in the 3D viewport or procedurally via modifiers/nodes:
