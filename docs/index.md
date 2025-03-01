@@ -28,14 +28,14 @@ In many cases it allows you to model freely while UVs appear before your eyes.
 
 ![tools](assets/all_tools.png)
 
-### Create UVs
+### :material-creation-outline: Create UVs
 Sophisticated projection methods create high quality UVs:
 
 1. **Oriented**. UVs are aligned with the object's up axis by default. Ideal for directional textures e.g. bricks, tiles, wood, leaks etc.
 2. **Stable**. Unlike other procedural UV solutions, the projections are stable by default and if left unpacked, don't jump around as you change your model.
 3. **Automatic and manual**. All projection types are available as modifiers and tools. UVs can be created in real-time as you model, or you can use the tools directly in edit mode for fast manual UV unwrapping.
 
-### Modify UVs
+### :material-vector-square-edit: Modify UVs
 Edit UVs directly in the 3D viewport or procedurally via modifiers/nodes:
 
 - **Transform**. Offset, rotate and scale UVs.
@@ -46,7 +46,7 @@ Edit UVs directly in the 3D viewport or procedurally via modifiers/nodes:
 
   
 
-### Create your own "UV Factory"
+### :material-factory: Create your own "UV Factory"
 
 Chain together the tools as modifiers or nodes to create your own complex custom UV pipelines. There are extra tools included for managing UV seams and sharp edges.
 
