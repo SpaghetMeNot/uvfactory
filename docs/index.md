@@ -22,18 +22,33 @@ If something isn't clear or is missing please reach out!
 
 ## What is uvFactory?
 
-uvFactory is a set of tools designed to eliminate many tedious unwrapping tasks. In many cases it allows you to model freely while UVs appear before your eyes.
+uvFactory is a set of tools designed to automate and eliminate many tedious unwrapping tasks. Use it to speed up manual unwrapping or create fully automated UV pipelines.
+
+In many cases it allows you to model freely while UVs appear before your eyes.
 
 ![tools](assets/all_tools.png)
 
-### Main Features
+### Create UVs
+Sophisticated projection methods create high quality UVs:
 
-1. Oriented UVs. UVs are aligned with object's up axis by default. Ideal for directional textures e.g. bricks, tiles, wood, leaks etc.
-2. Stable UVs. Unlike other procedural UV solutions, the projections are stable by default and don't jump around as you change your model* 
-3. Live UVs. All projection types are available as modifiers meaning your UVs can be created in real-time as you model.
-4. Direct Tools. You can also use the tools directly in mesh edit mode for fast manual UV unwrapping/transforming.
+1. **Oriented**. UVs are aligned with object's up axis by default. Ideal for directional textures e.g. bricks, tiles, wood, leaks etc.
+2. **Stable**. Unlike other procedural UV solutions, the projections are stable by default and if left unpacked, don't jump around as you change your model.
+3. **Automatic and manual**. All projection types are available as modifiers and tools. UVs can be created in real-time as you model or you can use the tools directly in edit mode for fast manual UV unwrapping.
 
-*Stable UVs are designed for tiling materials where UVs can overlap. UV maps that require packing will not be stable.
+### Modify UVs
+Edit UVs directly in the 3D viewport or procedurally via modifiers/nodes:
+
+- **Transform**. Offset, rotate and scale UVs.
+- **Randomize**. Randomize UV transforms.
+- **Pack**. Quick access to Blender's Packing algorithm.
+- **Align**. Align UVs to face a desired orientation.
+- **Copy**. Copy UVs from one map to another.
+
+  
+
+### Create your own "UV Factory"
+
+Chain together the tools as modifiers or nodes to create your own complex custom UV pipelines. There are extra tools included for managing UV seams and sharp edges.
 
 ----
 
