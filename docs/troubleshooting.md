@@ -1,13 +1,13 @@
-## UVs aren't appearing / changing?
-- Check the `UV Map` specified is an existing map on your mesh
+## UVs aren't appearing / changing
+- Check that the `UV Map` specified is an existing map on your mesh.
 - Check the `Selection` section. Have you specified a vertex group or material that doesn't exist on your mesh?
-- Check that the modifier is enabled
+- Check that the modifier is enabled.
 
-## UVs are stretched / have errors?
-- Check for non-manifold geometry and impossible faces
-- Apply scale/rotation to the mesh
-- Check the seams are sensible when using 'Island' projection methods. Projection modifiers will produce a `uv_seam` edge attribute you can check
-- Ngons can sometimes by tricksy, a triangulate modifier before performing UV ooperations can help
+## UVs are stretched / have errors
+- Check for non-manifold geometry and impossible faces.
+- Apply scale/rotation to the mesh.
+- Check the seams are sensible when using 'Island' projection methods. Projection modifiers will produce a `uv_seam` edge attribute that you can check.
+- Ngons can sometimes by tricksy, a triangulate modifier before performing UV operations can help.
 
 ## Other issues?
 Please reach out! I'm always happy to help.

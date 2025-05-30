@@ -1,10 +1,10 @@
 # Extra tools
 
-This page details the tools included with uvFactory that don't create or modify UVs directly.
+This page details the tools included with uvFactory that do not create or modify UVs directly.
 
 ## Sharp Edges
 
-Automatically mark edges as sharp on a mesh. This is similar to Blender's native "Smooth by Angle" modifier but lets you limit sharp edges to convex/concave edges. This allows you to specify different angles for sharpness for convex and concave edges by using two modifiers.
+Automatically mark edges as sharp on a mesh. This is similar to Blender's ***Smooth by Angle*** modifier, but with the ability to distinguish between convex and concave edges. This allows you to specify different angles for convex and concave sharp edges by using two modifiers.
 
 - **Keep Existing.** Keep all existing sharp edges.
 - **Angle.** Angle at which to mark edges as sharp.
@@ -29,10 +29,10 @@ Create an edge attribute for use as UV seams. This can sometimes be useful befor
 
 ### Output Attributes
 
-- **UV Seam.** The seam attribute to write to.
+- **UV Seam.** The edge boolean attribute to write to.
 
 ## UV Existing Seams
 
 !!! info "Geometry Nodes only"
 
-This is the logic used by every ***Detect Existing*** UV seam option as it's own node. This will only detect seams if there is a gap in UV space, it cannot detect unwelded UVs or the seam attribute.
+This node contains the logic behind every ***Detect Existing*** UV seam option. This will only detect seams if there is a gap in UV space, it cannot detect unwelded UVs or the seam attribute.

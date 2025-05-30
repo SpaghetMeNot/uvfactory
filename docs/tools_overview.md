@@ -9,7 +9,7 @@ For more information on how to use the tools:
 
 ## List of Tools
 
-uvFactory tools are available as a mix of mesh tools, modifiers and nodes. Below is a full list of them and where they can be used. Click the name to go to the documentation for the tool.
+uvFactory tools are available as a mix of mesh tools, modifiers and nodes. Below is a full list of tools and where they can be used. Click the name to go to the documentation for the tool.
 
 |Tool                                                |                                                              | Mesh Tool      | Modifier       | Node           |
 |----------------------------------------------------|--------------------------------------------------------------|----------------|----------------|----------------|
@@ -19,7 +19,7 @@ uvFactory tools are available as a mix of mesh tools, modifiers and nodes. Below
 |[Transform](modify_uvs.md#transform)                |![IU](assets/icons/Mod_UV_Transform.png){ width="64" }        |:material-check:|:material-check:|:material-check:|
 |[Randomize Islands](modify_uvs.md#randomize-islands)|![IU](assets/icons/Mod_UV_Randomize_Islands.png){ width="64" }|:material-check:|:material-check:|:material-check:|
 |[Align Islands](modify_uvs.md#align-islands)        |![IU](assets/icons/Mod_UV_Align.png){ width="64" }            |:material-check:|:material-check:|:material-check:|
-|[Pack Islands](modify_uvs.md#align-islands)         |![PI](assets/icons/Mod_UV_Pack_Islands.png){ width="64" }     |:material-check:|:material-check:|:material-check:|
+|[Pack Islands](modify_uvs.md#pack-islands)         |![PI](assets/icons/Mod_UV_Pack_Islands.png){ width="64" }     |:material-check:|:material-check:|:material-check:|
 |[Copy Map](modify_uvs.md#copy-map)                  |![CM](assets/icons/Mod_UV_Copy_Map.png){ width="64" }         |                |:material-check:|:material-check:|
 |[Sharp Edges](extra_tools.md#sharp-edges)           |![SE](assets/icons/Mod_Edit_Sharp_Edges.png){ width="64" }    |                |:material-check:|:material-check:|
 |[Seam Attribute](extra_tools.md#seam-attribute)     |![SA](assets/icons/Mod_UV_Mark_Seams.png){ width="64" }       |                |:material-check:|:material-check:|

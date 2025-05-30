@@ -10,7 +10,7 @@ There are 3 methods for generating UVs with uvFactory. Each is available as both
 
 ### Box Project
 
-Box Project is the simplest and fastest method. Each face is planar projected from the most appropriate axis. It is a fairly standard way of projecting UVs and is similar to the method in Blender's Texture shader node.
+Box Project is the simplest and fastest method. Each face is planar projected from the most appropriate axis. It is a fairly standard way of projecting UVs and is similar to the method in Blender's Texture Shader node.
 
 ![box project](assets/box_project.gif)
 
@@ -34,7 +34,7 @@ On low to mid poly meshes with sharp edges, this method produces the best fully 
 
 ## Settings
 
-Most of the settings for UV generators are identical across generation methods. Specific settings are called out in the relevant sections.
+Most of the settings for UV generators are identical across generation methods. Specific settings are identified in the relevant sections.
 
 - **Tile Size.** Scales the UVs. For tiling textures this should match the expected size of the texture.
 - **UV Map.** Which UV map to write to. This is a string parameter currently, be sure the name matches the map you wish to write to.
@@ -53,18 +53,18 @@ Transform the UVs in UV space after they have been generated.
 
 - **Offset U.** Offsets generated UVs in U direction.
 - **Offset V.** Offsets generated UVs in V direction.
-- **Rotate Islands.** Rotates each island around it's center in degrees.
+- **Rotate Islands.** Rotates each island around its center in degrees.
 
 ### Projection Transform
 
-Transform the projection of UVs in 3d space. You can think of this as transforming the object itself, projecting the UVs, then transforming it back to it's original orientation.
+Transform the projection of UVs in 3d space. You can think of this as transforming the object itself, projecting the UVs, then transforming it back to its original orientation.
 
-- **Reference Origin.** Specify an object to align, scale and center UVs too. This can offer a very visual way of transforming the projection and can be very useful when you need multiple objects to match UVs.
-- **Offset XYZ.** Offset the projection/alignment of UVs in object space
+- **Reference Origin.** Specify an object to align, scale and center UVs to. This can offer a visual way of transforming the projection and can be useful when you need multiple objects to match UVs.
+- **Offset XYZ.** Offset the projection/alignment of UVs in object space.
 - **Rotate XYZ*.** Rotate the projection/alignment of UVs in object space. Note that for island-based UV generation, Z rotation will only affect perfectly aligned top and bottom faces. This is because all other faces are aligned to their slope.
 
 !!! info "Box Project"
-    - **Z Axis Bias.** Controls the angle at which faces will be projected from the Z axis (top and bottom). Increase to include more faces, decrease to include less.
+    - **Z Axis Bias.** Controls the angle at which faces will be projected from the Z axis (top and bottom). Increase to include more faces, decrease to include fewer.
 
 !!! info "Island Unwrap"
     - **Initial Pack Size.** Advanced option that should be left at 1.0 in most cases. Raising this value can sometimes reduce errors on complex meshes at the cost of speed.
@@ -72,7 +72,7 @@ Transform the projection of UVs in 3d space. You can think of this as transformi
 ### Seams
 
 !!! info "Island Project & Island Unwrap only"
-Control where seam edges are that define UV islands.
+Control where seam edges are to define UV islands.
 
 - **Edge Angle.** Edges that have a greater angle than that specified will be used as seams. Setting this to 360 or above will effectively disable seams by edge angle.
 - **Sharp Edges.** Edges marked as sharp will be used as UV seams.

@@ -6,7 +6,7 @@ Most UV modification tools apply some form of transformation to existing UVs. Al
 
 ### Common Settings
 
-All transform tools have common settings for specifying which UVs to modify
+All transform tools have common settings to specify which UVs to modify.
 
 - **UV Map.** Which UV map to modify. This is a string parameter currently, be sure the name matches the map you wish to modify.
 
@@ -17,7 +17,7 @@ All transform tools have common settings for specifying which UVs to modify
 
 #### Selection
 
-- **Selection.** Which faces to modify UVs for. Defaults to "on" applying to every face.
+- **Selection.** Which faces to modify UVs for. Defaults to "on", applying to every face.
 - **Material.** Limit UV modification to a specific material.
 - **Invert Selection.** Inverts the selection to modify UVs on every face that isn't selected using the above options.
 
@@ -32,7 +32,7 @@ Apply basic offset, rotation and scale to UVs.
 
 ### Pack Islands
 
-Packs UV islands into 0-1 UV space. This simply uses Blender's native geometry node packing algorithm which isn't nearly as good as using the ***Pack Islands*** tool in Blender's UV Editor. For use when procedural packing is required.
+Packs UV islands into 0-1 UV space. This uses Blender's native geometry node packing algorithm. This is less effective than the ***Pack Islands*** tool in the UV Editor. For use when procedural packing is required.
 
 - **Margin.** The distance to leave between UV islands.
 - **Rotate.** Allow Rotating islands for best fit.
@@ -49,7 +49,7 @@ Aligns UV islands to a vector in 3D space. UVs will be oriented to the "slope" o
 Randomizes offset, rotation and scale of UV islands.
 
 - **Seed.** The seed used for randomization.
-- **Snapped Rotation.** Will rotate UV Islands randomly by multiples of the ***Snap Increment***. This can be useful for materials such as wood or tiles and works best with values of either 90° or 180°.
+- **Snapped Rotation.** Will rotate UV Islands randomly by multiples of the ***Snap Increment***. This can be useful for materials such as wood or tiles, and works best with values of either 90° or 180°.
 - **Snap Increment.** The angle to use for ***Snapped Rotation***.
 - **Smooth Rotation.** Rotates UV islands randomly up to a maximum of this angle.
 - **Offset U / Offset V.** Applies a random offset per UV island in the specified axis up to a maximum of this value.
@@ -60,5 +60,5 @@ Randomizes offset, rotation and scale of UV islands.
 
 Copy all UVs from one map to another.
 
-- **Copy Map.** UV Map to copy from
-- **To.** UV Map to copy to. Enter the name of the map you wish to copy to. This will overwrite existing UVs if there are any.
+- **Copy Map.** UV Map to copy from.
+- **To.** UV Map to copy to. Enter the name of the map you wish to copy to. This will overwrite any existing UVs.
