@@ -4,8 +4,10 @@ site_url: https://spaghetmenot.github.io/uvFactory/
 nav:
   - Home: index.md
   - Install: install.md
-  - How to Use: how_to_use.md
-  - Projection Methods: projection_methods.md
+  - Tools Overview: tools_overview.md
+  - Create UVs: create_uvs.md
+  - Modify UVs: modify_uvs.md
+  - Extra Tools: extra_tools.md
   - Examples: examples.md
   - Troubleshooting: troubleshooting.md
 
@@ -40,6 +42,7 @@ theme:
       accent: deep orange
 
 markdown_extensions:
+  - tables
   - attr_list
   - md_in_html
   - pymdownx.emoji:

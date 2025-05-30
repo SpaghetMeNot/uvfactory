@@ -1,17 +1,10 @@
 # uvFactory Home
 
-!!! warning "Documentation not complete!"
-    This documentation is WIP
-
-    Estimated completion for uvFactory 1.0 around April/May 2025
-
-    Please reach out if you get stuck with anything in the meantime!
-
 Welcome to the uvFactory documentation! Here you'll find everything there is to know about the tools.
 <div class="grid cards" markdown>
 
 - [:octicons-download-16: Install uvFactory](install.md)
-- [:material-run: How to Use](how_to_use.md)
+- [:material-run: Quick Start](examples.md#quick-start)
 
 </div>
 
@@ -22,13 +15,14 @@ If anything is unclear or missing, please reach out!
 
 ## What is uvFactory?
 
-uvFactory is a set of tools designed to automate and eliminate many tedious unwrapping tasks. Use it to speed up manual unwrapping or create fully automated UV pipelines.
+uvFactory is a set of tools designed to automate, eliminate, or streamline tedious unwrapping tasks. Use it to speed up manual unwrapping or create fully automatic UV pipelines.
 
 In many cases it allows you to model freely while UVs appear before your eyes.
 
 ![tools](assets/all_tools.png)
 
 ### :material-creation-outline: Create UVs
+
 Sophisticated projection methods create high quality UVs:
 
 1. **Oriented**. UVs are aligned with the object's up axis by default. Ideal for directional textures e.g. bricks, tiles, wood, leaks etc.
@@ -36,6 +30,7 @@ Sophisticated projection methods create high quality UVs:
 3. **Automatic and manual**. All projection types are available as modifiers and tools. UVs can be created in real-time as you model, or you can use the tools directly in edit mode for fast manual UV unwrapping.
 
 ### :material-vector-square-edit: Modify UVs
+
 Edit UVs directly in the 3D viewport or procedurally via modifiers/nodes:
 
 - **Transform**. Offset, rotate and scale UVs.
@@ -44,11 +39,13 @@ Edit UVs directly in the 3D viewport or procedurally via modifiers/nodes:
 - **Align**. Align UVs to face a desired orientation.
 - **Copy**. Copy UVs from one map to another.
 
-  
-
 ### :material-factory: Create your own "UV Factory"
 
-Chain together the tools as modifiers or nodes to create your own complex custom UV pipelines. There are extra tools included for managing UV seams and sharp edges.
+Chain together modifiers/nodes to create your own complex UV pipeline.
+
+- Create and manage multiple UV maps.
+- Use different operations on different selections/materials.
+- Expertly manage seams and sharp edges on your meshes.
 
 ----
 
