@@ -4,9 +4,11 @@
 
 Most UV modification tools apply some form of transformation to existing UVs. All transform tools are available as [modifiers](tools_overview.md#modifiers), [nodes](tools_overview.md#geometry-nodes) and [mesh tools](tools_overview.md#mesh-tools).
 
+![transform tools](assets/transform_tools.png)
+
 ### Common Settings
 
-All transform tools have common settings to specify which UVs to modify.
+All transform tools share common settings to specify which UVs to modify.
 
 - **UV Map.** Which UV map to modify. This is a string parameter currently, be sure the name matches the map you wish to modify.
 
@@ -21,7 +23,10 @@ All transform tools have common settings to specify which UVs to modify.
 - **Material.** Limit UV modification to a specific material.
 - **Invert Selection.** Inverts the selection to modify UVs on every face that isn't selected using the above options.
 
-### Transform
+### Transform 
+
+![transform](assets/icons/Mod_UV_Transform.png){ width=150 align=right  }
+
 
 Apply basic offset, rotation and scale to UVs.
 
@@ -32,6 +37,8 @@ Apply basic offset, rotation and scale to UVs.
 
 ### Pack Islands
 
+![transform](assets/icons/Mod_UV_Pack_Islands.png){ width=150 align=right }
+
 Packs UV islands into 0-1 UV space. This uses Blender's native geometry node packing algorithm. This is less effective than the ***Pack Islands*** tool in the UV Editor. For use when procedural packing is required.
 
 - **Margin.** The distance to leave between UV islands.
@@ -39,12 +46,15 @@ Packs UV islands into 0-1 UV space. This uses Blender's native geometry node pac
 
 ### Align Islands
 
+![transform](assets/icons/Mod_UV_Align.png){ width=150 align=right }
+
 Aligns UV islands to a vector in 3D space. UVs will be oriented to the "slope" of islands relative to the input vector.
 
 - **Reference Object.** Specify an object to align UVs too.
 - **Align Vector.** Vector to align UVs to. This can be a constant or an attribute/field. When inputting an attribute/field, it will be averaged across each island before aligning.
 
 ### Randomize Islands
+![transform](assets/icons/Mod_UV_Randomize_Islands.png){ width=150 align=right }
 
 Randomizes offset, rotation and scale of UV islands.
 
@@ -57,6 +67,8 @@ Randomizes offset, rotation and scale of UV islands.
 - **Scale U / Scale V.** Applies a random scale in the specified axis. The value will be added/subtracted to a default scale of 1. When ***Uniform Scale*** is on only ***Scale U*** will be used.
 
 ## Copy Map
+
+![transform](assets/icons/Mod_UV_Copy_Map.png){ width=150 align=right }
 
 Copy all UVs from one map to another.
 

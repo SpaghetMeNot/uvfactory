@@ -10,25 +10,29 @@ There are 3 methods for generating UVs with uvFactory. Each is available as both
 
 ### Box Project
 
+![bp](assets/icons/Mod_UV_Box_Project.png){ width=80 align=left}
 Box Project is the simplest and fastest method. Each face is planar projected from the most appropriate axis. It is a fairly standard way of projecting UVs and is similar to the method in Blender's Texture Shader node.
 
 ![box project](assets/box_project.gif)
 
 ### Island Project
 
+![bp](assets/icons/Mod_UV_Island_Project.png){ width=80 align=left}
 Island Project performs a planar UV projection per island*. UVs are oriented based on the model's Z axis. This works well for models made of flat surfaces but there will be stretching if islands are curved.
 
 ![island project](assets/island_project.gif)
 
 ### Island Unwrap
 
-Island Unwrap is the most advanced projection method. It unwraps and flattens each island* then orients the UVs in the same way as [Island Project](#island-project). It also has logic for handling cylindrical or looped UV islands.  
+![bp](assets/icons/Mod_UV_Island_Unwrap_2.png){ width=80 align=left}
+Island Unwrap is the most advanced projection method. It unwraps and flattens each island* then orients the UVs in the same way as [Island Project](#island-project). It also has logic for handling cylindrical or looped UV islands.
+
 On low to mid poly meshes with sharp edges, this method produces the best fully automatic results.
 
 ![island unwrap](assets/island_unwrap.gif)
 
 !!! info "*Islands"
-    **Island Project** and **Island Unwrap** first define where UV islands are using seam edges. These are controlled in the [Seams](#seams) section of their settings."
+    **Island Project** and **Island Unwrap** first define where UV islands are using seam edges. These are controlled in the [Seams](#seams) section of their settings.
 
 ----
 

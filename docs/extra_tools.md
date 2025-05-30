@@ -4,6 +4,8 @@ This page details the tools included with uvFactory that do not create or modify
 
 ## Sharp Edges
 
+![transform](assets/icons/Mod_Edit_Sharp_Edges.png){ width=150 align=right }
+
 Automatically mark edges as sharp on a mesh. This is similar to Blender's ***Smooth by Angle*** modifier, but with the ability to distinguish between convex and concave edges. This allows you to specify different angles for convex and concave sharp edges by using two modifiers.
 
 - **Keep Existing.** Keep all existing sharp edges.
@@ -12,6 +14,8 @@ Automatically mark edges as sharp on a mesh. This is similar to Blender's ***Smo
 - **Concave.** Apply sharp to concave edges.
 
 ## Seam Attribute
+
+![transform](assets/icons/Mod_UV_Mark_Seams.png){ width=150 align=right }
 
 Create an edge attribute for use as UV seams. This can sometimes be useful before [creating UVs](create_uvs.md).
 
@@ -31,7 +35,11 @@ Create an edge attribute for use as UV seams. This can sometimes be useful befor
 
 - **UV Seam.** The edge boolean attribute to write to.
 
+</asdf>
+
 ## UV Existing Seams
+
+![transform](assets/icons/Node_UV_ExistingSeams.png){ width=150 align=right }
 
 !!! info "Geometry Nodes only"
 
