@@ -33,7 +33,7 @@ Modifiers can be found under the ***UV Factory*** group in the ***Add Modifier**
 
 ## Mesh Tools
 
-Mesh tools can be found in the ***UV*** Menu in ***Mesh Edit*** mode.
+Mesh tools can be found in the ***UV*** Menu in ***Mesh Edit*** mode. With default hotkeys this can be accessed by pressing ++u++.
 
 ![mesh tool menu](assets/edit_mesh_menu.png)
 
