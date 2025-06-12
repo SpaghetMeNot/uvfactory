@@ -19,7 +19,9 @@ uvFactory is a set of tools designed to automate, eliminate, or streamline tedio
 
 In many cases it allows you to model freely while UVs appear before your eyes.
 
-![tools](assets/all_tools.png)
+![tools](assets/icon_layout_horizontal.png)
+
+<iframe width="900" height="390" src="https://www.youtube.com/embed/BWoc5Nff2c0?si=vwTxKEr_hhLxcVVP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ### :material-creation-outline: Create UVs
 
@@ -51,9 +53,10 @@ Chain together modifiers/nodes to create your own complex UV pipeline.
 
 ## Where can I get uvFactory?
 
-!!! warning "Blender 4.1+ Recommended (Blender 4.0+ Required)"
-uvFactory is available on Gumroad and will be released on Blender Market for version 1.0
+!!! warning "Blender 4.2 and above"
+uvFactory is available on Gumroad and Superhive (formerly Blender Market)
 
 <div class="grid cards" markdown>
 - [:simple-gumroad: Gumroad](https://spaghetmenot.gumroad.com/l/uvproject)
+- [:material-beehive-outline: Superhive (PENDING REVIEW)](https://superhivemarket.com/products/uvfactory)
 </div>
