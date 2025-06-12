@@ -2,14 +2,14 @@
 
 uvFactory is installed as an asset library in Blender.
 
-TLDR: download the zip, extract the folder, and add the folder as an asset library. For more detailed instructions see below.
+TLDR: download the zip, extract to a folder, add the folder as an asset library. For more detailed instructions see below.
 
 !!! info "For more information on asset libraries you can check Blender's [Official Documentation](https://docs.blender.org/manual/en/dev/files/asset_libraries/introduction.html#introduction)"
 
 ## Install Asset Library
 
 1. Download latest .zip file for the closest Blender version (e.g. for Blender 4.3 use "uvFactory 4.2 vX.zip").
-2. Unzip/extract folder to your desired location.
+2. Unzip/extract to a folder in your desired location.
 3. Open Blender and go to Edit/Preferences/File Paths/Asset Libraries.
 4. Click + Add Asset Library. ![install_1](assets/install_1.png).
 5. Navigate to the unzipped folder and press ***Add Asset Library*** (make sure you are in the "uvFactory" folder). ![install_2](assets/install_2.png)
