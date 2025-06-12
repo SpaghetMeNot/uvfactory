@@ -58,5 +58,5 @@ uvFactory is available on Gumroad and Superhive (formerly Blender Market)
 
 <div class="grid cards" markdown>
 - [:simple-gumroad: Gumroad](https://spaghetmenot.gumroad.com/l/uvproject)
-- [:material-beehive-outline: Superhive (PENDING REVIEW)](https://superhivemarket.com/products/uvfactory)
+- [:material-beehive-outline: Superhive (Formerly Blender Market)](https://superhivemarket.com/products/uvfactory)
 </div>
