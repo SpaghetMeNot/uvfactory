@@ -9,6 +9,7 @@ nav:
   - Modify UVs: modify_uvs.md
   - Extra Tools: extra_tools.md
   - Examples: examples.md
+  - Changelog: changelog.md
   - Troubleshooting: troubleshooting.md
 
 theme:
